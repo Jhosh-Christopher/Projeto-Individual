@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px){
+header {
+    position: relative;
+}
+
+.img-container {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+}

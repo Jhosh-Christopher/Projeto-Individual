@@ -1,0 +1,146 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 25px;
+    margin-left: 30px;
+    transition: .5s;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 0 5px;
+}
+
+p {
+    transition: .5s;
+    width: 500px;
+    text-align: start;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    transition: .5s;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    height: 90px;
+    margin-left: 15px;
+    transition: .2s;
+}
+
+.imagem1 {
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 15px;
+    display: flex;
+    border: solid 3px #fff;
+    transition: .4s;
+    margin-top: 100px;
+}
+
+.imagem2 {
+    width: 450px;
+    height: 256px;
+    border-radius: 50px;
+    display: flex;
+    border: solid 3px #fff;
+    transition: .4s;
+    
+}
+
+.content {
+    display: flex;
+    background-image: radial-gradient(circle at 100% 0%, #b8b6b3 0, #b4b1aa 10%, #b1aa9f 20%, #aea295 30%, #ab9a89 40%, #a9907e 50%, #a78674 60%, #a57d6b 70%, #a37465 80%, #a26c61 90%, #a1645e 100%);;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    width: 100%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family: 'Koulen', cursive;
+}
+
+.img-container {
+    background-image: radial-gradient(circle at 100% 0%, #fffffb 0, #fffce7 16.67%, #faeed1 33.33%, #f3deba 50%, #edcea4 66.67%, #e9be91 83.33%, #e7af82 100%);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+    font-size: 34px;
+    font-family: 'Koulen', cursive;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-image: radial-gradient(circle at 100% 0%, #e1ded4 0, #dcdace 8.33%, #d5d7c7 16.67%, #cdd2c0 25%, #c4ceb8 33.33%, #b8c9b1 41.67%, #abc4aa 50%, #9dbfa4 58.33%, #8ebaa1 66.67%, #80b69f 75%, #71b29f 83.33%, #63afa0 91.67%, #55aca3 100%);
+    color: #E3F2C1;
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    font-family: 'Koulen', cursive;
+    background-image: radial-gradient(circle at 100% 0%, #7e7f86 0, #77787a 12.5%, #71706d 25%, #6c675f 37.5%, #675d50 50%, #635342 62.5%, #5f4936 75%, #5c402c 87.5%, #5a3725 100%);
+    color: #fff;
+    padding: 25px 0 5px 0;
+    width: 100%;
+}
+
+.rodape {
+    background-image: radial-gradient(circle at 100% 0%, #7e7f86 0, #77787a 12.5%, #71706d 25%, #6c675f 37.5%, #675d50 50%, #635342 62.5%, #5f4936 75%, #5c402c 87.5%, #5a3725 100%);
+    width: 100%;
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    width: 100%;
+}
+
+.imagem1:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+a:hover{
+    transform: scale(1.2);
+    color: #ABC4AA
+}
+
+p:hover{
+    color: #fff;
+}
+
+ul:hover{
+    color: #fff;
+}
+.logo:hover{
+    transform: scale(1.02);
+}
+
